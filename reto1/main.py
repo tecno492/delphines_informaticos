@@ -5,7 +5,7 @@ class estacion():
         self.latitud = lat
 
     def dondeEstoy(self):
-        print(f"latitud: {self.latitud}\nlongitud: {self.longitud}")
+        print(f"latitud: {self.latitud}º\nlongitud: {self.longitud}º")
 
 
 leon = estacion(42.57682, -5.59698)
@@ -21,3 +21,5 @@ longitud_objetivo = round(6 * leon.longitud - 4 * santiago.longitud - 2 * barcel
 
 objetivo = estacion(latitud_objetivo, longitud_objetivo)
 objetivo.dondeEstoy()
+
+
